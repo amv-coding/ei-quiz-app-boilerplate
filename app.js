@@ -5,25 +5,26 @@ const store = {
   // 5 or more questions are required
   questions: [
     {
-      question: 'What color is broccoli?',
+      question: 'What Genre originated in the southern region of the United States?',
       answers: [
-        'red',
-        'orange',
-        'pink',
-        'green'
+        'Country',
+        'Rock',
+        'Hip Hop',
+        'Classical'
       ],
-      correctAnswer: 'green'
+      correctAnswer: 'Country'
     },
     {
-      question: 'What is the current year?',
+      question: 'In which decade did Hip-Hop achieve mainstream appeal?',
       answers: [
-        '1970',
-        '2015',
-        '2019',
-        '2005'
+        '70s',
+        '80s',
+        '2010s',
+        '90s'
       ],
-      correctAnswer: '2019'
+      correctAnswer: '80s'
     }
+    question:
   ],
   quizStarted: false,
   questionNumber: 0,
